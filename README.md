@@ -13,6 +13,9 @@ Currently implements the following:
 ## Releases
 The latest builds can be found in the [Releases](https://github.com/rt-someone/FnMacTweak/releases/) section, as well as in the [FnMacAssistant Discord](https://discord.gg/nfEBGJBfHD).
 
+## Building
+You can build the tweak yourself by running `make package FINALPACKAGE=1`, make sure you have Theos installed.
+
 ## Credits
 Made by: @rt2746 (me)
 

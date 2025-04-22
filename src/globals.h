@@ -2,8 +2,8 @@
 #import <UIKit/UIKit.h>
 
 // For spoofing device specifications
-#define DEVICE_MODEL "iPad16,6"
-#define OEM_ID "A2925"
+#define DEVICE_MODEL "iPhone17,1"
+#define OEM_ID "A3083"
 
 // Setting keys
 #define kSettingsKey @"fnmactweak.settings"

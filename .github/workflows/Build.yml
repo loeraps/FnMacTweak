@@ -34,5 +34,6 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.build_package.outputs.package }}
-          
+          name: ${{ steps.build_package.outputs.package }}      
+          path: ./packages/${{ steps.build_package.outputs.package }}
+          content_type: application/vnd.debian.binary-package
